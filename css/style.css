@@ -1,0 +1,59 @@
+:root {
+    --cor01: #64CCC5;
+    --cor02: #0C0C0C;
+    --cor03: #121212;
+    --cor04: #FFFFFF;
+    --cor05: #F4F4F4;
+    --cor05: #DFDFDF;
+    --font-heading: "Roboto";
+    --font-body: "DM Sans";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/* TIPOGRAFIA */
+h1 {
+    font-family: var(--font-heading);
+    font-size: 80px;
+}
+
+h2 {
+    font-family: var(--font-heading);
+    font-size: 77px;
+}
+
+h3 {
+    font-family: var(--font-heading);
+    font-size: 64px;
+}
+
+h4 {
+    font-family: var(--font-heading);
+    font-size: 45px;
+}
+
+h5 {
+    font-family: var(--font-heading);
+    font-size: 30px;
+}
+
+h6 {
+    font-family: var(--font-heading);
+    font-size: 20px;
+}
+
+p {
+    font-family: var(--font-body);
+    font-size: 16px;
+}
+
+/* ESTILIZAÇÃO GERAL */
