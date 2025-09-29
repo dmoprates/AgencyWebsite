@@ -182,3 +182,106 @@ section div.image img {
     top: 0px;
     right: 100px;
 }
+/* === SERVICES === */
+section.services {
+    margin: 50px 0;
+}
+
+section.services div.chamada {
+    text-align: center;
+}
+
+section.services div.chamada h4{
+    color: var(--cor01);
+    font-weight: 400;
+    font-size: 35px;
+    font-family: var(--font-heading);
+}
+
+section.services div.titulo {
+    text-align: center;
+    width: 700px;
+    margin: 0 auto
+}
+
+section.services div.titulo h2 {
+    color: var(--cor02);
+    font-weight: 600;
+    font-size: 64px;
+    font-family: var(--font-heading);
+    margin-bottom: 30px;
+}
+
+div.card-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+div.card-single {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 20px;
+    background: var(--cor05);
+}
+
+div.card-single.selected {
+    background: var(--cor03);
+}
+
+div.icon i {
+    color: var(--cor04);    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+}
+
+div.card-single.selected div.icon i {
+    color: var(--cor03);
+}
+
+div.icon {
+    width: 80px;
+    height: 80px;
+    background: var(--cor02);
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+div.card-single.selected div.icon {
+    background: var(--cor04);
+}
+
+div.card-text h6 {
+    color: var(--cor02);
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+div.card-single.selected div.card-text h6 {
+    color: var(--cor04);
+}
+
+div.card-text p {
+    color: var(--cor02);
+    font-size: 15px;
+}
+
+div.card-single.selected div.card-text p {
+    color: var(--cor04);
+}
+/* === ABOUT === */
+section.about {
+    background: var(--cor03);
+}
+
+section.about div.container {
+    display: flex;
+}
+
+section.about div.about-img img{
+    width: 100%;
+    max-width: 750px;
+}
